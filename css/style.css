@@ -12,8 +12,12 @@ body{
 
 .center{
     width: 100vw;
-    height: 100vh;
-
+    height: 80vh;
+background-image: url('../img/1.jpg');
+background-position: center;
+background-size: cover;
+position: absolute;
+z-index: 1;
 
     
 }
@@ -27,6 +31,9 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  z-index: 2
+;
 }
 nav div {
   display: inline-block;
