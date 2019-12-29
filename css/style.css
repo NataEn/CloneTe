@@ -1,21 +1,15 @@
-
 * {
-
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-
-    height: 100vh;
-    width: 100vw;
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
-.center{
-    width: 100vw;
-    height: 100vh;
-
-
-    
+.center {
+  width: 100vw;
+  height: 100vh;
 }
 #logo {
   width: 100px;
@@ -27,6 +21,10 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 15vh;
+  position: absolute;
+  opacity: 0.7;
+  background: #a3a3a3;
 }
 nav div {
   display: inline-block;
