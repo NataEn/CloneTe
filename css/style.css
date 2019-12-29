@@ -13,7 +13,7 @@ body {
   width: 100vw;
   height: 100vh;
   height: 80vh;
-  background-image: url('../img/1.jpg');
+  background-image: url("../img/1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -33,24 +33,38 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 15vh;
+  height: 10vh;
   width: 100vw;
   opacity: 0.7;
   background: #a3a3a3;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 nav div {
   display: inline-block;
+  border-radius: 2.5px;
 }
 
 nav button {
-  padding: 10px;
-  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 2.5px;
+  border: 0;
+  font-size: 90%;
+  font-weight: 550;
+  cursor: pointer;
 }
-nav #buttons {
-  border-radius: 5px;
+#login {
+  color: white;
+  background: none;
 }
+#signup {
+  color: black;
+}
+#signup:hover {
+  color: #a3a3a3;
+}
+
 input {
   width: 35vw;
   background: white;
@@ -69,7 +83,7 @@ input:focus {
   width: max-content;
   display: flex;
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 2.5px;
 }
 #search .search {
   cursor: pointer;
